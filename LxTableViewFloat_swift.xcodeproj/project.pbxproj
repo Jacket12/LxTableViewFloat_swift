@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,20 @@
 		2CB3937A22BB898900200483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3937822BB898900200483 /* LaunchScreen.storyboard */; };
 		2CB3938522BB898900200483 /* LxTableViewFloat_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3938422BB898900200483 /* LxTableViewFloat_swiftTests.swift */; };
 		2CB3939022BB898A00200483 /* LxTableViewFloat_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3938F22BB898A00200483 /* LxTableViewFloat_swiftUITests.swift */; };
+		2CB393A022BB89FF00200483 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3939F22BB89FF00200483 /* OCViewController.m */; };
+		2CB393A922BB8D6600200483 /* LyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393A822BB8D6600200483 /* LyViewController.swift */; };
+		2CB393AB22BB8F8400200483 /* LyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393AA22BB8F8400200483 /* LyView.swift */; };
+		2CB393AE22BB917300200483 /* LyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393AC22BB917200200483 /* LyTableView.m */; };
+		2CB393B222BB91A900200483 /* WJSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393B122BB91A900200483 /* WJSliderView.m */; };
+		2CB393B422BB92EA00200483 /* UITableView+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393B322BB92EA00200483 /* UITableView+Identifier.swift */; };
+		2CB393B622BB961A00200483 /* LxEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393B522BB961A00200483 /* LxEnum.swift */; };
+		2CB393B922BB980A00200483 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393B822BB980A00200483 /* BaseViewModel.swift */; };
+		2CB393BB22BB983C00200483 /* LyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393BA22BB983C00200483 /* LyViewModel.swift */; };
+		2CB393C022BB9BCA00200483 /* LxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393BF22BB9BCA00200483 /* LxViewController.swift */; };
+		2CB393C222BB9BDE00200483 /* LxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393C122BB9BDE00200483 /* LxView.swift */; };
+		2CB393C422BB9BF900200483 /* LxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393C322BB9BF900200483 /* LxViewModel.swift */; };
+		2CB393E122BCC9B000200483 /* LyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB393E022BCC9B000200483 /* LyCell.swift */; };
+		A8985FD56E891F622E22A2CE /* Pods_LxTableViewFloat_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CBF970C50E2D971FF61C10 /* Pods_LxTableViewFloat_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,26 @@
 		2CB3938B22BB898A00200483 /* LxTableViewFloat_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LxTableViewFloat_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB3938F22BB898A00200483 /* LxTableViewFloat_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxTableViewFloat_swiftUITests.swift; sourceTree = "<group>"; };
 		2CB3939122BB898A00200483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB3939D22BB89FF00200483 /* LxTableViewFloat_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LxTableViewFloat_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		2CB3939E22BB89FF00200483 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		2CB3939F22BB89FF00200483 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		2CB393A822BB8D6600200483 /* LyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyViewController.swift; sourceTree = "<group>"; };
+		2CB393AA22BB8F8400200483 /* LyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyView.swift; sourceTree = "<group>"; };
+		2CB393AC22BB917200200483 /* LyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyTableView.m; sourceTree = "<group>"; };
+		2CB393AD22BB917300200483 /* LyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyTableView.h; sourceTree = "<group>"; };
+		2CB393B022BB91A900200483 /* WJSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSliderView.h; sourceTree = "<group>"; };
+		2CB393B122BB91A900200483 /* WJSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSliderView.m; sourceTree = "<group>"; };
+		2CB393B322BB92EA00200483 /* UITableView+Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Identifier.swift"; sourceTree = "<group>"; };
+		2CB393B522BB961A00200483 /* LxEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxEnum.swift; sourceTree = "<group>"; };
+		2CB393B822BB980A00200483 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		2CB393BA22BB983C00200483 /* LyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyViewModel.swift; sourceTree = "<group>"; };
+		2CB393BF22BB9BCA00200483 /* LxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxViewController.swift; sourceTree = "<group>"; };
+		2CB393C122BB9BDE00200483 /* LxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxView.swift; sourceTree = "<group>"; };
+		2CB393C322BB9BF900200483 /* LxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxViewModel.swift; sourceTree = "<group>"; };
+		2CB393E022BCC9B000200483 /* LyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyCell.swift; sourceTree = "<group>"; };
+		B749E54622380179828A6A4E /* Pods-LxTableViewFloat_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxTableViewFloat_swift.release.xcconfig"; path = "Target Support Files/Pods-LxTableViewFloat_swift/Pods-LxTableViewFloat_swift.release.xcconfig"; sourceTree = "<group>"; };
+		E206D4F4C1C3E69D6843CEA4 /* Pods-LxTableViewFloat_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxTableViewFloat_swift.debug.xcconfig"; path = "Target Support Files/Pods-LxTableViewFloat_swift/Pods-LxTableViewFloat_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CBF970C50E2D971FF61C10 /* Pods_LxTableViewFloat_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LxTableViewFloat_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8985FD56E891F622E22A2CE /* Pods_LxTableViewFloat_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 				2CB3938322BB898900200483 /* LxTableViewFloat_swiftTests */,
 				2CB3938E22BB898A00200483 /* LxTableViewFloat_swiftUITests */,
 				2CB3936D22BB898700200483 /* Products */,
+				EAB1A040FA44370A06EFB788 /* Pods */,
+				B78A6DF9AD5F9240BF54865D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +134,17 @@
 		2CB3936E22BB898700200483 /* LxTableViewFloat_swift */ = {
 			isa = PBXGroup;
 			children = (
+				2CB393A222BB8C4E00200483 /* Controllers */,
+				2CB393A122BB8C4E00200483 /* Ext */,
 				2CB3936F22BB898700200483 /* AppDelegate.swift */,
 				2CB3937122BB898700200483 /* ViewController.swift */,
 				2CB3937322BB898700200483 /* Main.storyboard */,
 				2CB3937622BB898900200483 /* Assets.xcassets */,
 				2CB3937822BB898900200483 /* LaunchScreen.storyboard */,
 				2CB3937B22BB898900200483 /* Info.plist */,
+				2CB3939E22BB89FF00200483 /* OCViewController.h */,
+				2CB3939F22BB89FF00200483 /* OCViewController.m */,
+				2CB3939D22BB89FF00200483 /* LxTableViewFloat_swift-Bridging-Header.h */,
 			);
 			path = LxTableViewFloat_swift;
 			sourceTree = "<group>";
@@ -125,6 +167,107 @@
 			path = LxTableViewFloat_swiftUITests;
 			sourceTree = "<group>";
 		};
+		2CB393A122BB8C4E00200483 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393B322BB92EA00200483 /* UITableView+Identifier.swift */,
+				2CB393AF22BB91A900200483 /* WJSliderView */,
+				2CB393AD22BB917300200483 /* LyTableView.h */,
+				2CB393AC22BB917200200483 /* LyTableView.m */,
+				2CB393B522BB961A00200483 /* LxEnum.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		2CB393A222BB8C4E00200483 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393BC22BB9BB100200483 /* LxController */,
+				2CB393A322BB8CD200200483 /* LyController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CB393A322BB8CD200200483 /* LyController */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393B722BB97FC00200483 /* ViewModel */,
+				2CB393A422BB8CD200200483 /* View */,
+				2CB393A822BB8D6600200483 /* LyViewController.swift */,
+			);
+			path = LyController;
+			sourceTree = "<group>";
+		};
+		2CB393A422BB8CD200200483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393AA22BB8F8400200483 /* LyView.swift */,
+				2CB393E022BCC9B000200483 /* LyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CB393AF22BB91A900200483 /* WJSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393B022BB91A900200483 /* WJSliderView.h */,
+				2CB393B122BB91A900200483 /* WJSliderView.m */,
+			);
+			path = WJSliderView;
+			sourceTree = "<group>";
+		};
+		2CB393B722BB97FC00200483 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393B822BB980A00200483 /* BaseViewModel.swift */,
+				2CB393BA22BB983C00200483 /* LyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2CB393BC22BB9BB100200483 /* LxController */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393BD22BB9BB100200483 /* ViewModel */,
+				2CB393BE22BB9BB100200483 /* View */,
+				2CB393BF22BB9BCA00200483 /* LxViewController.swift */,
+			);
+			path = LxController;
+			sourceTree = "<group>";
+		};
+		2CB393BD22BB9BB100200483 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393C322BB9BF900200483 /* LxViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2CB393BE22BB9BB100200483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CB393C122BB9BDE00200483 /* LxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B78A6DF9AD5F9240BF54865D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBF970C50E2D971FF61C10 /* Pods_LxTableViewFloat_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB1A040FA44370A06EFB788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E206D4F4C1C3E69D6843CEA4 /* Pods-LxTableViewFloat_swift.debug.xcconfig */,
+				B749E54622380179828A6A4E /* Pods-LxTableViewFloat_swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CB3939422BB898A00200483 /* Build configuration list for PBXNativeTarget "LxTableViewFloat_swift" */;
 			buildPhases = (
+				7F4CB37DA2B1544C9CCE5364 /* [CP] Check Pods Manifest.lock */,
 				2CB3936822BB898700200483 /* Sources */,
 				2CB3936922BB898700200483 /* Frameworks */,
 				2CB3936A22BB898700200483 /* Resources */,
+				4522EDC684678411BD20ABAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +338,7 @@
 				TargetAttributes = {
 					2CB3936B22BB898700200483 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					2CB3937F22BB898900200483 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -251,13 +397,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4522EDC684678411BD20ABAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LxTableViewFloat_swift/Pods-LxTableViewFloat_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LxTableViewFloat_swift/Pods-LxTableViewFloat_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LxTableViewFloat_swift/Pods-LxTableViewFloat_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4CB37DA2B1544C9CCE5364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LxTableViewFloat_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CB3936822BB898700200483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB393B222BB91A900200483 /* WJSliderView.m in Sources */,
+				2CB393B922BB980A00200483 /* BaseViewModel.swift in Sources */,
+				2CB393C222BB9BDE00200483 /* LxView.swift in Sources */,
+				2CB393B622BB961A00200483 /* LxEnum.swift in Sources */,
 				2CB3937222BB898700200483 /* ViewController.swift in Sources */,
+				2CB393A922BB8D6600200483 /* LyViewController.swift in Sources */,
 				2CB3937022BB898700200483 /* AppDelegate.swift in Sources */,
+				2CB393E122BCC9B000200483 /* LyCell.swift in Sources */,
+				2CB393AB22BB8F8400200483 /* LyView.swift in Sources */,
+				2CB393BB22BB983C00200483 /* LyViewModel.swift in Sources */,
+				2CB393C022BB9BCA00200483 /* LxViewController.swift in Sources */,
+				2CB393AE22BB917300200483 /* LyTableView.m in Sources */,
+				2CB393B422BB92EA00200483 /* UITableView+Identifier.swift in Sources */,
+				2CB393C422BB9BF900200483 /* LxViewModel.swift in Sources */,
+				2CB393A022BB89FF00200483 /* OCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +631,10 @@
 		};
 		2CB3939522BB898A00200483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E206D4F4C1C3E69D6843CEA4 /* Pods-LxTableViewFloat_swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LxTableViewFloat_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,15 +643,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meihui.com.LxTableViewFloat-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "LxTableViewFloat_swift/LxTableViewFloat_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2CB3939622BB898A00200483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B749E54622380179828A6A4E /* Pods-LxTableViewFloat_swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LxTableViewFloat_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,7 +664,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meihui.com.LxTableViewFloat-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "LxTableViewFloat_swift/LxTableViewFloat_swift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
